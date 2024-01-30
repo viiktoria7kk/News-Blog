@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": "20.10.0"
+  },
+  "name": "blog-news",
+  "version": "1.0.0",
+  "description": "The goal of this project is to create a blog with news, where you can delete, post, update posts.",
+  "main": "server.js",
+  "author": "Viktoria Kostak",
+  "license": "ISC"
+}
